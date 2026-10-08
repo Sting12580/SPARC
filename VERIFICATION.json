@@ -1,0 +1,33 @@
+{
+  "verified_at_date": "2026-10-07",
+  "environment": {
+    "python": "3.10.20",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "torch": "2.6.0",
+    "device": "cpu"
+  },
+  "command": "python -m examples.synthetic_demo --output-dir outputs/synthetic",
+  "result": "passed",
+  "checks": {
+    "purpose": "Synthetic API verification only; not a paper result.",
+    "seed": 7,
+    "calibration_rows": 512,
+    "validation_rows": 256,
+    "prediction_rows": 128,
+    "selected_family": "warm_duration_rank0.5_cllr",
+    "candidate_pool": "full",
+    "family_count": 17,
+    "save_load_predictions_equal": true,
+    "all_trial_ids_disjoint": true,
+    "encoder_order_rejection": "Encoder identity or order mismatch",
+    "calibration_validation_overlap_rejection": "Calibration and validation share 1 trial_ids",
+    "prediction_labels_used": false
+  },
+  "source_preservation": {
+    "file_count": 8,
+    "byte_for_byte_match": true,
+    "manifest": "SOURCE_MANIFEST.json"
+  },
+  "scope": "Cached-input synthetic verification; original corpus evaluation and optional audio extraction were not rerun."
+}

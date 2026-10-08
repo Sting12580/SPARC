@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.3.3
+pyarrow==25.0.1
+PyYAML==6.0.3
+scipy==1.15.3
+soundfile==0.14.0
+silero-vad==6.2.1
+speechbrain==1.1.1
+torch==2.8.0
+torchaudio==2.8.0
+funasr==1.4.16

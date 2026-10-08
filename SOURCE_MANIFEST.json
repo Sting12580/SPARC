@@ -1,0 +1,47 @@
+{
+  "release_date": "2026-10-07",
+  "upstream_snapshot_commit": "13b29e56f4bc7abe6e6435bf6b130eea20560731",
+  "preserved_files": [
+    {
+      "path": "delivery/README.md",
+      "bytes": 709,
+      "sha256": "74ec8faf053f4052b63103e7e7e06d5de09e27c03bf0ac51e09805f690b73af2"
+    },
+    {
+      "path": "delivery/__init__.py",
+      "bytes": 235,
+      "sha256": "cddee3b853a1a7e53f346d51b5426bd3de5f775ca37646ea5d7b58615ba09114"
+    },
+    {
+      "path": "delivery/load_example.py",
+      "bytes": 6668,
+      "sha256": "ae9056eb6835dd3da19d1322d197c936053fc8e8f6c3ade480d94bc9f611072c"
+    },
+    {
+      "path": "delivery/metadata.py",
+      "bytes": 12111,
+      "sha256": "32b66fc87a49583b61a74c290c22bb8eb6079762d26a259f968e0b01777bf285"
+    },
+    {
+      "path": "delivery/plugin.py",
+      "bytes": 9443,
+      "sha256": "d4449e43a71615c6fbb227f9b6448e7d9754f3b6812e71fa78889740570a0a60"
+    },
+    {
+      "path": "delivery/requirements.txt",
+      "bytes": 173,
+      "sha256": "c496a090d8203d469b7ac525d24557efbf5a3e478076fe3843064f17b259ce1d"
+    },
+    {
+      "path": "delivery/run_example.py",
+      "bytes": 2443,
+      "sha256": "f04432c7483e590d46bc76edf16473f5fa2d15d7f7f1914a58c012fd2d40cc47"
+    },
+    {
+      "path": "delivery/training.py",
+      "bytes": 23351,
+      "sha256": "604d2326579299ca8b485c67b47710e1803208741b6093a8569270eb98d84416"
+    }
+  ],
+  "preservation": "All listed files match the source snapshot byte for byte."
+}
